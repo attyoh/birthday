@@ -1,3 +1,8 @@
+function playAudio() {
+    var clapAudio = document.getElementById("clap");
+    clapAudio.play();
+}
+
 // 紙ふぶきアニメーション
 const colors = ["#FF0000", "#00FF00", "#0000FF", "#FFFF00", "#FF00FF", "#00FFFF", "#FFFFFF"];
 
@@ -125,4 +130,5 @@ setInterval(() => {
     rotatingImage_center.rotate();
     rotatingImage_right.rotate();
     rotatingImage_left.rotate();
+    playAudio();
 }, 100); // 0.1秒ごとに回転させる場合
