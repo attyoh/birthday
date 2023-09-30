@@ -1,6 +1,9 @@
+// 拍手・誕生日音声追加
 function playAudio() {
     var clapAudio = document.getElementById("clap");
+    var birthdayAudio = document.getElementById("birthday");
     clapAudio.play();
+    birthdayAudio.play();
 }
 
 // 紙ふぶきアニメーション
