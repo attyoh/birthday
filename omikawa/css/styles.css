@@ -37,49 +37,52 @@ body {
     }
 }
 
-/* 猫の画像 */
+/* 顔の画像 */
 .img-cat img {
     position: absolute;
-    width: 15%;
-    bottom: 5vw;
+    width: 27%;
+    bottom: -13vw;
 }
 
 /* 手の画像 */
 .img-hand img {
     position: absolute;
-    width: 6%;
+    width: 15%;
 }
 
 /* 真ん中の画像 */
 #img-cat-center img{
     left: 50%;
+    bottom: -16vw;
     transform: translate(-50%, -50%);
 }
 
 #img-container-center_right img{
+    left: 45%;
     bottom: -5vw;
-    left: 49%;
 }
 
 #img-container-center_left img{
+    left: 42%;
     bottom: -3vw;
-    left: 46%;
 }
 
 /* 右の画像 */
 #img-cat-right img{
-    left: 85%;
+    width: 32%;
+    left: 83%;
+    bottom: -13vw;
     transform: translate(-50%, -50%);
 }
 
 #img-container-right_right img{
+    left: 80%;
     bottom: -5vw;
-    left: 84%;
 }
 
 #img-container-right_left img{
+    left: 77%;
     bottom: -3vw;
-    left: 81%;
 }
 
 /* 左の画像 */
@@ -89,11 +92,11 @@ body {
 }
 
 #img-container-left_right img{
+    left: 10%;
     bottom: -5vw;
-    left: 14%;
 }
 
 #img-container-left_left img{
+    left: 7%;
     bottom: -3vw;
-    left: 11%;
 }
