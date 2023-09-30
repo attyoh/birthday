@@ -40,63 +40,64 @@ body {
 /* 顔の画像 */
 .img-cat img {
     position: absolute;
-    width: 27%;
+    width: 22%;
     bottom: -13vw;
 }
 
 /* 手の画像 */
 .img-hand img {
     position: absolute;
-    width: 15%;
+    width: 11%;
 }
 
 /* 真ん中の画像 */
 #img-cat-center img{
-    left: 50%;
+    left: 49%;
     bottom: -16vw;
     transform: translate(-50%, -50%);
 }
 
 #img-container-center_right img{
-    left: 45%;
-    bottom: -5vw;
+    left: 46%;
+    bottom: -6vw;
 }
 
 #img-container-center_left img{
-    left: 42%;
-    bottom: -3vw;
+    left: 43%;
+    bottom: -4vw;
 }
 
 /* 右の画像 */
 #img-cat-right img{
-    width: 32%;
+    width: 29%;
     left: 83%;
-    bottom: -13vw;
+    bottom: -15vw;
     transform: translate(-50%, -50%);
 }
 
 #img-container-right_right img{
     left: 80%;
-    bottom: -5vw;
+    bottom: -6vw;
 }
 
 #img-container-right_left img{
     left: 77%;
-    bottom: -3vw;
+    bottom: -4vw;
 }
 
 /* 左の画像 */
 #img-cat-left img{
-    left: 15%;
+    left: 14%;
+    bottom: -12vw;
     transform: translate(-50%, -50%); 
 }
 
 #img-container-left_right img{
     left: 10%;
-    bottom: -5vw;
+    bottom: -7vw;
 }
 
 #img-container-left_left img{
     left: 7%;
-    bottom: -3vw;
+    bottom: -5vw;
 }
