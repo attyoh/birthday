@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.birthday-message {
+    font-size: 8vw;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.flake {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    animation: fall linear infinite;
+    transform-origin: center bottom;
+    opacity: 1;
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(100vh);
+    }
+    0% {
+        transform: translateY(0) rotate(0deg);
+    }
+    100% {
+        transform: translateY(calc(100vh - 100px)) rotate(360deg);
+    }
+}
+
+/* 猫の画像 */
+.img-cat img {
+    position: absolute;
+    width: 15%;
+    bottom: 5vw;
+}
+
+/* 手の画像 */
+.img-hand img {
+    position: absolute;
+    width: 6%;
+}
+
+/* 真ん中の画像 */
+#img-cat-center img{
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#img-container-center_right img{
+    bottom: -5vw;
+    left: 49%;
+}
+
+#img-container-center_left img{
+    bottom: -3vw;
+    left: 46%;
+}
+
+/* 右の画像 */
+#img-cat-right img{
+    left: 85%;
+    transform: translate(-50%, -50%);
+}
+
+#img-container-right_right img{
+    bottom: -5vw;
+    left: 84%;
+}
+
+#img-container-right_left img{
+    bottom: -3vw;
+    left: 81%;
+}
+
+/* 左の画像 */
+#img-cat-left img{
+    left: 15%;
+    transform: translate(-50%, -50%); 
+}
+
+#img-container-left_right img{
+    bottom: -5vw;
+    left: 14%;
+}
+
+#img-container-left_left img{
+    bottom: -3vw;
+    left: 11%;
+}
