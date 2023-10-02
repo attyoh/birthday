@@ -8,18 +8,28 @@ body {
     background-color: #f0f0f0;
 }
 
-button {
-    background: linear-gradient(to bottom, #3498db, #2980b9);
-    color: #ffffff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 30px; /* 丸みを帯びた角 */
-    cursor: pointer;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4);
-    transition: background 0.3s;
-    font-size: 40px;
+.image-box img {
+    transition: opacity 1.5s; /* 切り替え時のアニメーション時間を設定 */
 }
 
-button:hover {
-    background: linear-gradient(to bottom, #2980b9, #3498db); /* ホバー時のグラデーション */
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2列 */
+    grid-template-rows: repeat(3, 1fr);    /* 3行 */
+    gap: 5px;                               /* グリッド間のスペース */
+    width: 100%;                            /* コンテナ幅を100%に設定 */
+    height: 100vh;                          /* コンテナ高さをビューポートの高さに設定 */
+}
+
+.image-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.image-box img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
 }
