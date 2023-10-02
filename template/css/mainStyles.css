@@ -8,6 +8,10 @@ body {
     background-color: #f0f0f0;
 }
 
+.image-box img {
+    transition: opacity 2s; /* 切り替え時のアニメーション時間を設定 */
+}
+
 .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* 2列 */
